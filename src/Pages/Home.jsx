@@ -7,12 +7,12 @@ const Home = () => {
              <div>
                 <div>
                     <div>
-                        <nav className=" flex">
-                            <br />
-                                <Link to="/" className="md:text-2xl inline text-xl mt-8 text-slate-200 ml-4 md:ml-36 font-serif">Martha Ochuko O.</Link>
-
-                                <div className='md:hidden mt-8 float-right'>  
-            <button
+                        <nav className="flex mt-8">
+                          <br />
+                                <Link to="/" className="md:text-2xl inline text-xl mt-2 text-slate-200 ml-4 md:ml-36 font-serif">Martha Ochuko O.</Link>
+                            
+                                <div className='md:hidden float-right ml-40'>  
+                                <button
                                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                                 onClick={() => setNavbar(!navbar)}
                             >
@@ -47,22 +47,20 @@ const Home = () => {
                                     )}
                             </button>
              </div>
-             <br />
+           
              <div
-                        className={`flex-1 justify-self-center md:ml-96 p-2 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+                        className={`flex-1 justify-self-center md:ml-96 p-2 pb-3  md:block md:pb-0 md:mt-0 ${
                             navbar ? "block" : "hidden"
                         }`}
                     >
-             
-                                {/* <div className="flex ml-96"> */}
                                     <Link to="/about" className="text-xl block md:inline mt-8 text-slate-200 font-serif mr-10">About</Link>
                                     <Link to="/projects" className="text-xl md:inline block mt-8 text-slate-200 font-serif mr-10">Projects</Link>
                                     <Link to="/resume" className="text-xl block md:inline  mt-8 text-slate-200 font-serif mr-10">Resume</Link>
                                     <Link to="/contact" className="text-xl text-slate-200 mt-8 font-serif block md:inline mr-10">Contact</Link>
-                                    {/* </div> */}
-                                    </div>
-                           
+                                    </div>    
                         </nav>   
+
+                        
                         <div className="text-center md:mt-28 mt-10 font-serif p-6 text-slate-300">
                             <h1 className="md:text-6xl text-4xl font-bold">Hey There! 👋🏾</h1>
                             <h2 className="md:text-4xl text-2xl mt-10">I'm a Front End Developer who builds websites <br /> with good interface. 
