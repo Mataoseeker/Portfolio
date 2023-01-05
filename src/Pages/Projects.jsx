@@ -2,16 +2,12 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const pic = new URL( "./images/img1.png", import.meta.url).href;
-const pic2 = new URL( "./images/img1.png", import.meta.url).href;
-const pic3 = new URL( "./images/img1.png", import.meta.url).href;
-const pic4 = new URL( "./images/img1.png", import.meta.url).href;
-const pic5 = new URL( "./images/img1.png", import.meta.url).href;
-const pic6 = new URL( "./images/img1.png", import.meta.url).href;
-// import pic2 from "./images/img4.png";
-// import pic3 from "./images/img5.png";
-// import pic4 from "./images/img6.png";
-// import pic5 from "./images/img7.png";
-// import pic6 from "./images/img2.png";
+const pic2 = new URL( "./images/img4.png", import.meta.url).href;
+const pic3 = new URL( "./images/img5.png", import.meta.url).href;
+const pic4 = new URL( "./images/img6.png", import.meta.url).href;
+const pic5 = new URL( "./images/img7.png", import.meta.url).href;
+const pic6 = new URL( "./images/img2.png", import.meta.url).href;
+
 
 const Projects = () => {
     const [navbar, setNavbar] = useState(false);
@@ -77,7 +73,7 @@ const Projects = () => {
            <div className="mt-8 grid lg:grid-cols-2 md:grid-cols-2 gap-10 ">
 
         <div className=" border card border-slate-900 rounded-lg hover:shadow-lg">
-           <img src={pic} alt="stew" className="w-auto md:h-72  rounded-t-lg object-cover" />
+           <img src={pic} alt="examination" className="w-auto md:h-72  rounded-t-lg object-cover" />
          
             <div className="m-4 text-center font-serif  text-gray-900">
                 <span className="font-bold text-2xl "> Altschool React Examination </span>
@@ -93,7 +89,7 @@ const Projects = () => {
 
         <div className=" border border-slate-900 rounded-lg hover:shadow-lg">
             
-           <img src={pic2} alt="stew" className="w-full md:h-72 object-cover rounded-t-lg" />
+           <img src={pic2} alt="recipe" className="w-full md:h-72 object-cover rounded-t-lg" />
            
            <div className="m-4 text-center font-serif text-gray-900">
                 <span className="font-bold text-2xl "> Nigho Food Recipes </span>
@@ -114,7 +110,7 @@ const Projects = () => {
         </div>
 
         <div className=" border border-slate-900 rounded-lg hover:shadow-lg">
-        <img src={pic3} alt="stew" className="w-full md:h-72 object-cover rounded-t-lg" />
+        <img src={pic3} alt="excuse-app" className="w-full md:h-72 object-cover rounded-t-lg" />
            
            <div className="m-4 text-center font-serif text-gray-900">
                 <span className="font-bold text-2xl "> An Excuse App </span>
@@ -136,7 +132,7 @@ const Projects = () => {
         </div>
 
         <div className=" border border-slate-900 rounded-lg hover:shadow-lg">
-        <img src={pic4} alt="stew" className="w-full h-72 object-cover rounded-t-lg" />
+        <img src={pic4} alt="to-do-list" className="w-full h-72 object-cover rounded-t-lg" />
            
            <div className="m-4 text-center font-serif text-gray-900">
                 <span className="font-bold text-2xl ">  To Do List App </span>
@@ -168,10 +164,11 @@ const Projects = () => {
              <span className="text-lg text-gray-300 m-2">
                  <button className="m-3">React</button>
                  <button className="m-3">JavaScript</button>
+                 <button className="m-3">Vite</button>
                  <button className="m-3">Tailwindcss</button>
              </span>
              <div className="m-6">
-             <a href="https://nighofoods.netlify.app/" className="md:m-6 m-2 md:text-2xl">Live Link</a>
+             <a href="https://martha-osika.netlify.app/" className="md:m-6 m-2 md:text-2xl">Live Link</a>
              <a href="https://github.com/Mataoseeker/Portfolio" className="md:m-6 m-2 md:text-2xl">GitHub</a>
              </div>
              </div>  
