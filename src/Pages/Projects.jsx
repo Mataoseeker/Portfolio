@@ -1,18 +1,17 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-import pic from "./images/img1.png";
-import pic2 from "./images/img4.png";
-import pic3 from "./images/img5.png";
-import pic4 from "./images/img6.png";
-import pic5 from "./images/img7.png";
-import pic6 from "./images/img2.png";
+import pic from "../../public/images/img1.png";
+import pic2 from "../../public/images/img4.png";
+import pic3 from "../../public/images/img5.png";
+import pic4 from "../../public/images/img6.png";
+import pic5 from "../../public/images/img7.png";
+import pic6 from "../../public/images/img2.png";
 
 const Projects = () => {
     const [navbar, setNavbar] = useState(false);
     return ( 
         <div className="projects">
-
                     <nav className="flex mt-8">
                           <br />
                                 <Link to="/" className="md:text-2xl inline text-xl mt-2 text-slate-200 ml-4 md:ml-36 font-serif">Martha Ochuko O.</Link>
@@ -187,6 +186,7 @@ const Projects = () => {
                  <button className="m-3">JavaScript</button>
              </span>
              <div className="m-6">
+             <a href="https://login-signupp-page.netlify.app/" className="md:m-6 m-2 md:text-2xl">Live Link</a>
              <a href="https://github.com/Mataoseeker/Weekly-coding-challenge-1.git" className="md:m-6 m-2 md:text-2xl">GitHub</a>
              </div>
              </div>  
