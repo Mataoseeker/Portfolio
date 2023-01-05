@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-import pic from "../../public/images/img1.png";
-import pic2 from "../../public/images/img4.png";
-import pic3 from "../../public/images/img5.png";
-import pic4 from "../../public/images/img6.png";
-import pic5 from "../../public/images/img7.png";
-import pic6 from "../../public/images/img2.png";
+const pic = new URL( "./images/img1.png", import.meta.url).href;
+const pic2 = new URL( "./images/img1.png", import.meta.url).href;
+const pic3 = new URL( "./images/img1.png", import.meta.url).href;
+const pic4 = new URL( "./images/img1.png", import.meta.url).href;
+const pic5 = new URL( "./images/img1.png", import.meta.url).href;
+const pic6 = new URL( "./images/img1.png", import.meta.url).href;
+// import pic2 from "./images/img4.png";
+// import pic3 from "./images/img5.png";
+// import pic4 from "./images/img6.png";
+// import pic5 from "./images/img7.png";
+// import pic6 from "./images/img2.png";
 
 const Projects = () => {
     const [navbar, setNavbar] = useState(false);
